@@ -14,6 +14,12 @@ html{
     background: #ec4e20;
 }
 
+.Logo{
+    width: 8rem;
+    margin-top:0.5rem;
+    margin-left: 1rem;
+}
+
 .shoppingCart{
     position: absolute;
     top: 1rem;
@@ -72,8 +78,21 @@ html{
 }
 
 
+.prijs{
+    color: white;
+    font-size: 4rem;
+    margin-left: 23rem;
+}
+
+p{ 
+    color: white;
+    font-size: 4rem;
+}
+
 .products-img{
-    width: 80%;
+    width: 60%;
+    margin-left: 8rem;
+    margin-top: -4rem;
 }
 
 h2{

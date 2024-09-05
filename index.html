@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="js/imagechange.js" defer></script>
 
     <title>Document</title>
 </head>
 <body>
     <header class="Header">
+        <img class="Logo" src="Media-assets/logo/logo.png" alt="">
         <a  class="shoppingCart"> <div class="shoppingCart__message">0</div>  Logo </a>
         
     </header>
 
     <section class="products">
         <figure class="products-box">
-            <img class="products-img" src="Media-assets/products/pet.png" alt="">
+            <img  id="myImage"  class="products-img" src="Media-assets/products/pet-blauw.png" alt="">
+            <p class="prijs" id="prijs">$12,95</p>
         </figure>
         <figure class="products-box2">
             <h2>Hats</h2>
@@ -23,20 +26,20 @@
             <p>Diffrent colors</p>
             <figure class="four-blocks-cage">
             <div class="four-blocks">
-                <img class="four-blocks-img" src="Media-assets/products/pet-blauw.png" alt="">
-                <p>40$</p>
+                <img  onclick="document.getElementById('prijs').innerText='$12,95'; document.getElementById('myImage').src='Media-assets/products/pet-blauw.png'" class="four-blocks-img" src="Media-assets/products/pet-blauw.png" alt="">
+                
             </div>
             <div class="four-blocks">
-                <img class="four-blocks-img" src="Media-assets/products/pet-goud.png" alt="">
-                <p>80$</p>
+                <img onclick=" document.getElementById('prijs').innerText='$15,95'; document.getElementById('myImage').src='Media-assets/products/pet-goud.png'" class="four-blocks-img" src="Media-assets/products/pet-goud.png" alt="">
+                
             </div>
             <div class="four-blocks">
-                <img class="four-blocks-img" src="Media-assets/products/pet-rood.png" alt="">
-                <p>60$</p>
+                <img onclick=" document.getElementById('prijs').innerText='$12,95'; document.getElementById('myImage').src='Media-assets/products/pet-rood.png'" class="four-blocks-img" src="Media-assets/products/pet-rood.png" alt="">
+                
             </div>
             <div class="four-blocks">
-                <img class="four-blocks-img" src="Media-assets/products/pet-zilver.png" alt="">
-                <p>70$</p>
+                <img onclick=" document.getElementById('prijs').innerText='$14,95'; document.getElementById('myImage').src='Media-assets/products/pet-zilver.png'" class="four-blocks-img" src="Media-assets/products/pet-zilver.png" alt="">
+                
             </div>
         </figure>
         </figure>
