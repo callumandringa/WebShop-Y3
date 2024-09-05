@@ -1,0 +1,108 @@
+*,::before,*,::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.Header{
+    width: 100%;
+    height: 10rem;
+    background: #ec4e20;
+}
+
+.shoppingCart{
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    background: black;
+    width: 8rem;
+    height: 8rem;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 100%;
+}
+
+.shoppingCart:hover{
+    cursor: pointer;
+}
+
+.shoppingCart__message{
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    background: var(--gradient);
+    border: 0.2rem solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.products{
+    width: 100%;
+    height: 63.1rem;
+    background: #353531;
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.products-box{
+    background:#ec4e20 ;
+    width: 40%;
+    height: 40rem;
+}
+
+.products-box2{
+    background:#ec4e20 ;
+    width: 40%;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.products-img{
+    width: 80%;
+}
+
+h2{
+    font-size: 8rem;
+    color: white;
+}
+
+.four-blocks-cage{
+    width: 100%;
+    height: 20rem;
+   
+    display: flex;
+    padding-top: 4rem;
+    margin-top: 6rem;
+    gap: 4rem;
+    justify-content: center;
+}
+
+.four-blocks{
+    width: 10rem;
+    height: 10rem;
+    background: #eee;
+   
+}
+
+.four-blocks:hover{
+    cursor: pointer;
+}
+
+.four-blocks-img{
+    width: 100%;
+}
